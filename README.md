@@ -1,5 +1,5 @@
-# Metropole-verde
-Bibliotecas e Ferramentas para a formação da GUI
+# Metrópole Verde: jogos como aplicação de educação ambiental
+# Bibliotecas e Ferramentas para a formação da GUI
 O código apresentado utiliza JavaFX para criar a interface gráfica do jogo e Scene Builder para a construção visual dessa interface. Por exemplo, na classe FinalController, os elementos da interface são definidos com anotações @FXML que se referem aos elementos definidos no arquivo FXML gerado pelo Scene Builder. O JavaFX manipula esses elementos de interface conforme necessário, como exibir pontuações e atualizar labels.
 
 • Scene Builder: O Scene Builder é uma ferramenta de design de interface gráfica do usuário (GUI) para JavaFX. Permite criar layouts de interface visualmente, arrastando e soltando elementos gráficos na área de design. Após criar o layout, o Scene Builder gera um arquivo FXML que pode ser carregado em aplicativos JavaFX para exibir a interface.
