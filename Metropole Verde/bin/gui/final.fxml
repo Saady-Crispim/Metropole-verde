@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="768.0" maxWidth="1366.0" minHeight="768.0" minWidth="1366.0" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FinalController">
+	<children>
+      <ImageView fitHeight="775.0" fitWidth="1384.0" layoutX="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/imgjogo.jpg" />
+         </image>
+         <effect>
+            <BoxBlur />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="483.0" fitWidth="239.0" layoutX="999.0" layoutY="434.0" opacity="0.94" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../Assets/img-p.historia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="483.0" fitWidth="239.0" layoutX="999.0" layoutY="197.0" opacity="0.94" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../Assets/img-p.historia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="483.0" fitWidth="239.0" layoutX="999.0" layoutY="-40.0" opacity="0.94" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../Assets/img-p.historia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="483.0" fitWidth="239.0" layoutX="151.0" layoutY="434.0" opacity="0.94" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../Assets/img-p.historia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="483.0" fitWidth="239.0" layoutX="151.0" layoutY="197.0" opacity="0.94" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../Assets/img-p.historia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="483.0" fitWidth="239.0" layoutX="151.0" layoutY="-40.0" opacity="0.94" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../Assets/img-p.historia.jpg" />
+         </image>
+      </ImageView>
+		<Button fx:id="btnMenu" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onMenuAction" text="Menu" textAlignment="CENTER" />
+      <Text fill="#9200ff" layoutX="600.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Metropole Verde">
+         <font>
+            <Font name="Britannic Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#1532b4" layoutX="666.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Placar">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="525.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1°">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="525.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2°">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="lblTop1" layoutX="563.0" layoutY="170.0" text="Ficou em 1°">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTop2" layoutX="563.0" layoutY="210.0" text="Ficou em 2°">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPontuacao1" layoutX="693.0" layoutY="171.0" text="Pontuação do 1°">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPontuacao2" layoutX="693.0" layoutY="210.0" text="Pontuação do 2°">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="101.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Em Metrópole Verde, uma cidade que se orgulha de sua busca incansável por um futuro sustentável, os contrastes da modernidade convivem com a preocupação constante com o meio ambiente." wrappingWidth="338.936767578125">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="101.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Às margens do rio que serpenteia a cidade, ergue-se imponente a Usina Hidrelétrica, uma fonte vital de energia limpa e renovável. No entanto, por trás de sua fachada majestosa, ecoam os sussurros de biólogos preocupados com os possíveis impactos da represa nos delicados habitats aquáticos locais." wrappingWidth="354.9367065429685">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="105.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nos amplos campos que circundam a área urbana, as turbinas da Usina Eólica giram graciosamente ao sabor dos ventos, simbolizando o compromisso da cidade com uma energia mais sustentável. Contudo, no céu aberto, observadores de aves levantam preocupações sobre o potencial impacto das hélices na migração das aves." wrappingWidth="346.9367675781248">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="93.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enquanto isso, nos recantos escondidos entre os prédios, as Hortas Comunitárias surgem como pequenos refúgios verdes em meio à selva de concreto. Ali, moradores se reúnem para cultivar alimentos frescos e saudáveis, fortalecendo os laços da comunidade em torno de uma causa comum: a alimentação sustentável." wrappingWidth="354.9367065429685">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="938.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No coração da zona industrial, as fábricas da Fundição de Ferro impulsionam a economia local, mas não sem custos. As chaminés lançam nuvens de fumaça tóxica no ar, enquanto resíduos poluentes são despejados em rios próximos, deixando uma marca sombria na paisagem e na saúde dos habitantes." wrappingWidth="354.93670654296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="938.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Por outro lado, nas fábricas de Tecelagem Industrial, o ritmo frenético das máquinas contrasta com a preocupação dos trabalhadores com sua saúde e segurança. Apesar dos empregos gerados e do impulso econômico, a poluição química proveniente da produção têxtil ameaça não apenas o meio ambiente, mas também a saúde daqueles que dependem dessas indústrias para sobreviver." wrappingWidth="366.13677978515625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="941.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assim, Metrópole Verde é um microcosmo de dilemas e desafios do mundo moderno, onde a busca pelo desenvolvimento sustentável está sempre em conflito com as demandas da industrialização e do crescimento econômico." wrappingWidth="354.93670654296875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="215.0" fitWidth="381.0" layoutX="510.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/fundo%20história.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="57.0" layoutX="525.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/CasaCompOrg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="99.0" layoutX="701.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/hidreletrica.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="42.0" layoutX="738.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Horta.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="59.0" layoutX="524.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="48.0" layoutX="532.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="57.0" layoutX="728.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Eolica.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="623.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pontos por propriedades">
+         <font>
+            <Font name="Britannic Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="597.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Casa de compostagem">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="790.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="U.Hidreletrica">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="605.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fabrica de fundição">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="795.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usina Eolica">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="811.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horta">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="601.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fabrica de tecelagem">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="647.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="350">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="647.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="647.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="320">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="816.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="400">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="816.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="230">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="815.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="400">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font>
+      </Text>
+	</children>
+</AnchorPane>

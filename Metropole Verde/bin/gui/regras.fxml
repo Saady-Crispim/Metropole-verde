@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1366.0" maxWidth="768.0" minHeight="768.0" minWidth="1366.0" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.InicialController">
+	<children>
+		<ImageView fitHeight="1053.0" fitWidth="1558.0" layoutX="-1.0" layoutY="-108.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../Assets/imgJogo.jpg" />
+			</image>
+			<effect>
+				<Lighting>
+					<bumpInput>
+						<Shadow />
+					</bumpInput>
+					<light>
+						<Light.Distant />
+					</light>
+				</Lighting>
+			</effect>
+		</ImageView>
+		<Button fx:id="btnRegras" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onVoltarAction" text="Voltar" textAlignment="CENTER" />
+      <Text fill="#00ff1e" layoutX="172.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Objetivo:">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#00ff1e" layoutX="172.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preparação para o jogo">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tendo como principal objetivo o desenvolvimento de uma metrópole autossustentável por meio da coleta de recursos e da compra de propriedades. A versão atual do “Metrópole Verde” é considerada um jogo de complexidade moderada, o passatempo ajuda a estimular habilidades, contribuindo diretamente para a aprendizagem. " textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indicado para todas as idades, o jogo conta com a participação de 2 jogadores. Ao iniciar a partida, o jogador inicial será designado pelos próprios jogadores, sendo nomeados como “jogador 1” e “jogador 2” (Isso pode ser tirado na sorte com dados)." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00ff1e" layoutX="172.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conheça os componentes e saiba jogar!">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coleta: Ao iniciar a partida, a quantidade de recursos é predefinida como 500 para cada um (madeira e minério). Quando o jogador seleciona a opção de coleta, ele recebe uma quantidade específica de recursos (300, 275 e 150). É importante notar que, quanto mais recursos o jogador já possui, menor será a quantidade que ele ganhará ao coletar." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Construção: Na tela inicial do jogo, entre as opções disponíveis, a função “construção” permite desenvolver a metrópole de acordo com a escolha do jogador. Cada propriedade tem um custo e uma descrição. Ao selecionar a propriedade desejada, os recursos correspondentes são descontados, e a propriedade fica marcada na metrópole do jogador. Ao final da seleção, a vez é passada adiante." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00ff1e" layoutX="942.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de pontuação">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#00ff1e" layoutX="800.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="•Informativo de Round e Jogador:">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="826.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• No canto superior esquerdo, você pode ver informações sobre o round atual e o jogador ativo." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="826.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Quando o jogador 2 termina sua jogada, o round avança." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00ff1e" layoutX="800.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="•Pontuação:">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="826.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• A pontuação é baseada nas propriedades da metrópole de cada jogador." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="826.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Ao final das escolhas, as pontuações das propriedades são informada no final da partida." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#00ff1e" layoutX="800.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="•Vitória:">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="834.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• O jogador que fizer as melhores escolhas ganha." textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="834.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Divirta-se jogando!" textAlignment="JUSTIFY" wrappingWidth="422.39994049072266">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+	</children>
+</AnchorPane>

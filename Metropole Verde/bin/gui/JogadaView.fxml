@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.JogadaController">
+	<children>
+      <ImageView fitHeight="1503.0" fitWidth="962.0" layoutX="220.0" layoutY="-310.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../Assets/img-p.historia.jpg" />
+         </image>
+      </ImageView>
+		<ImageView fitHeight="589.0" fitWidth="860.0" layoutX="645.0" layoutY="-123.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../Assets/floresta1.jpg" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="550.0" fitWidth="734.0" layoutX="-75.0" layoutY="-84.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../Assets/floresta1.jpg" />
+			</image>
+		</ImageView>
+		<Button fx:id="btnVoltar" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#onVoltarAction" text="Voltar" />
+		<Label fx:id="lblMadeira" layoutX="987.0" layoutY="550.0" text="Label">
+			<font>
+				<Font name="Elephant" size="30.0" />
+			</font>
+		</Label>
+		<Label fx:id="lblMinerio" layoutX="987.0" layoutY="608.0" text="Label">
+			<font>
+				<Font name="Elephant" size="30.0" />
+			</font>
+		</Label>
+		<Label fx:id="lblJogador" layoutX="1256.0" layoutY="14.0" text="Label" textFill="#e8fa00">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label fx:id="lblRound" layoutX="1256.0" layoutY="44.0" text="Label" textFill="#e8fa00">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Text layoutX="1073.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recursos">
+			<font>
+				<Font name="Arial Black" size="30.0" />
+			</font>
+		</Text>
+      <ImageView fitHeight="209.0" fitWidth="325.0" layoutX="54.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Coleta.png" />
+         </image>
+      </ImageView>
+		<Button fx:id="btnColeta" layoutX="54.0" layoutY="496.0" mnemonicParsing="false" onAction="#onColetaAction" opacity="0.74" prefHeight="209.0" prefWidth="313.0" scaleZ="3.0" text="Coleta">
+			<font>
+				<Font name="Arial Black" size="30.0" />
+			</font>
+		</Button>
+      <ImageView fitHeight="88.0" fitWidth="66.0" layoutX="442.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/CasaCompOrg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="53.0" layoutX="449.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Eolica.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="126.0" layoutX="683.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Horta.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="53.0" layoutX="683.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="72.0" layoutX="436.0" layoutY="646.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="634.0" layoutY="668.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/hidreletrica.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="509.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Madeira: 200">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="508.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minério: 200">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="762.0" layoutY="606.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Madeira: 300 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="761.0" layoutY="635.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minério:  250 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="762.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Madeira: 350 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="761.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minério:  300 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="504.0" layoutY="673.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Madeira: 400 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="503.0" layoutY="699.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minério: 350 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="765.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Madeira: 450 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="764.0" layoutY="712.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minério: 400 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="507.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Madeira: 500 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="506.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minério: 450 ">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnCasacomp" layoutX="442.0" layoutY="481.0" mnemonicParsing="false" onAction="#onCasaCompAction" opacity="0.0" prefHeight="66.0" prefWidth="66.0" text="casacomp" />
+      <Button fx:id="btnEolica" layoutX="442.0" layoutY="566.0" mnemonicParsing="false" onAction="#onEolicaAction" opacity="0.0" prefHeight="66.0" prefWidth="66.0" text="eolica" />
+      <Button fx:id="btnFundicao" layoutX="435.0" layoutY="646.0" mnemonicParsing="false" onAction="#onFundicaoAction" opacity="0.0" prefHeight="66.0" prefWidth="66.0" text="fundição" />
+      <Button fx:id="btnTecelagem" layoutX="676.0" layoutY="489.0" mnemonicParsing="false" onAction="#onTecelagemAction" opacity="0.0" prefHeight="66.0" prefWidth="66.0" text="tecelagem" />
+      <Button fx:id="btnHorta" layoutX="676.0" layoutY="568.0" mnemonicParsing="false" onAction="#onHortaAction" opacity="0.0" prefHeight="95.0" prefWidth="66.0" text="horta" />
+      <Button fx:id="btnHidreletrica" layoutX="634.0" layoutY="670.0" mnemonicParsing="false" onAction="#onHidreletricaAction" opacity="0.0" prefHeight="53.0" prefWidth="122.0" text="hidreletrica" />
+      <ImageView fx:id="imgCasaComp1" fitHeight="139.0" fitWidth="136.0" layoutX="-5.0" layoutY="117.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/CasaCompOrg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgHorta1" fitHeight="217.0" fitWidth="112.0" layoutX="380.0" layoutY="115.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Horta.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgFundicao1" fitHeight="136.0" fitWidth="122.0" layoutX="54.0" layoutY="232.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgTecelagem1" fitHeight="114.0" fitWidth="76.0" layoutX="173.0" layoutY="126.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgEolica1" fitHeight="125.0" fitWidth="99.0" layoutX="516.0" layoutY="101.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Eolica.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgHidreletrica1" fitHeight="114.0" fitWidth="299.0" layoutX="129.0" layoutY="294.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/hidreletrica.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCasaComp2" fitHeight="139.0" fitWidth="136.0" layoutX="851.0" layoutY="161.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/CasaCompOrg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgHorta2" fitHeight="234.0" fitWidth="136.0" layoutX="690.0" layoutY="89.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Horta.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgFundicao2" fitHeight="136.0" fitWidth="122.0" layoutX="1126.0" layoutY="39.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgTecelagem2" fitHeight="132.0" fitWidth="86.0" layoutX="1248.0" layoutY="135.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Fabrica.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgEolica2" fitHeight="125.0" fitWidth="99.0" layoutX="1145.0" layoutY="208.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/Eolica.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgHidreletrica2" fitHeight="114.0" fitWidth="299.0" layoutX="866.0" layoutY="282.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Assets/hidreletrica.png" />
+         </image>
+      </ImageView>
+	</children>
+</AnchorPane>
